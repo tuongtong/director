@@ -2,7 +2,9 @@
 © 2026 Đạo diễn Tường Tống - Space Gray Production
 
 > Tổng hợp từ góp ý trực tiếp của 3T (job REE Vĩnh Long, 11/2026), mở rộng thành luật chung.
-> **Áp dụng cho mọi chữ khách hoặc ekip sẽ đọc:** kịch bản, treatment, Transition Map, shot list, call sheet, câu hỏi phỏng vấn, VO, chữ trên màn hình, slide Proposal/PPM, email, tin nhắn, báo giá, timeline.
+> **Áp dụng cho mọi chữ khách hoặc ekip sẽ đọc:** kịch bản, treatment, Transition Map, shot list, call sheet, câu hỏi phỏng vấn, chữ trên màn hình, slide Proposal/PPM, email, tin nhắn, báo giá, timeline.
+> **Luật mục 1-8 dùng chủ yếu cho phần mô tả:** ô hình, cột mục đích, tên phần, treatment, shot list, slide, email.
+> **VO, slogan, tagline có chuẩn riêng ở mục 10A**: vẫn dễ hiểu, nhưng không viết thô như mô tả.
 > Không áp dụng cho prompt AI (prompt có chuẩn riêng ở `05`).
 > **Các bảng ví dụ trong file chỉ để minh họa cách nghĩ, KHÔNG phải danh sách đủ.** Gặp từ, câu nào chưa có trong bảng thì dùng các bài test ở mục 0 để quyết định.
 
@@ -210,11 +212,59 @@ Bỏ, hoặc thay bằng chi tiết thật của dự án.
 | **Shot list / lịch quay** | Ekip biết ngày nào, ở đâu, quay cảnh nào, cần gì | Bảng, mỗi dòng một cảnh: địa điểm, giờ, người xuất hiện, đồ cần chuẩn bị, phương án dự phòng |
 | **Transition Map** | Biết các đoạn nối nhau bằng gì | Cột "Để làm gì" ghi công dụng thật. Tên chuyển cảnh bằng tiếng Việt |
 | **Câu hỏi phỏng vấn** | Nhân vật nghe hiểu ngay và kể được | Hỏi như nói chuyện, một câu một ý. Hỏi mở ("Anh kể lại lần phải quay tàu về"), không hỏi có/không. Không đưa sẵn câu trả lời vào câu hỏi |
-| **VO** | Người xem nghe một lần là hiểu | Được giữ giọng kể, nhưng câu ngắn, từ phổ thông, không ví von khó hiểu ("phù sa loang ra biển", "lịch làm việc không còn do con người viết"). Đọc to thử, chỗ nào vấp là sửa |
+| **VO** | Nghe một lần là hiểu, và nhớ được | Theo chuẩn riêng ở mục 10A |
 | **Chữ trên màn hình** | Đọc kịp trong vài giây | Ngắn nhất có thể. Tên, chức danh, số liệu đúng y như khách cung cấp, ghi nguồn số liệu ở tài liệu đi kèm |
 | **Slide Proposal / PPM** | Hiểu ý chính mỗi trang trong vài giây | Mỗi slide một ý. Tiêu đề slide là một câu nói ra kết luận ("Phim đi theo 3 chuyến ra biển"), không chỉ là nhãn ("Cấu trúc phim") |
 | **Báo giá, timeline** | Biết trả tiền cho việc gì, khi nào xong | Gọi tên hạng mục bằng việc khách hiểu ("2 ngày quay ngoài biển, có thuê tàu"), không chỉ ghi mã hoặc thuật ngữ |
 | **Email, tin nhắn** | Biết phải làm gì, trước khi nào | Theo mục 9 |
+
+## 10A. VO, slogan, tagline: chuẩn riêng
+
+Mô tả hình là để khách **hình dung sẽ quay gì**, nên viết thẳng, viết thường. VO là lời người xem **nghe**, đi cùng nhạc và hình, nên phải có giọng, có nhịp, có chỗ nhấn. Viết VO thô như mô tả thì phim nghe như thuyết minh tin tức.
+
+**VO đứng giữa hai cái sai:**
+
+| Quá văn | Vừa | Quá thô |
+|---|---|---|
+| Nghe đẹp nhưng không hiểu nói gì, phải ngẫm mới ra | Nghe một lần hiểu, có nhịp, có cảm xúc, nhớ được một câu | Đúng thông tin nhưng như đọc biên bản, không ai nhớ |
+
+**Được dùng trong VO** (mô tả hình thì không):
+- **Câu song hành, đối nhau:** "không chỉ… mà…", "Xây bằng chuẩn mực - Dựng bằng trách nhiệm - Giữ bằng cam kết".
+- **Bộ ba, điệp cấu trúc:** lặp một kiểu câu qua cả phim để người xem nhớ.
+- **Hình ảnh gợi cảm xúc**, miễn là người nghe thấy ngay trong đầu, không phải giải nghĩa: "những ô cửa sáng đèn", "bữa cơm có đủ cả nhà".
+- **Từ có sức nặng, trang trọng vừa phải** khi hợp giọng thương hiệu (tập đoàn, BĐS): vững vàng, bền bỉ, dài lâu, tầm nhìn. Từ khách đã dùng trong tài liệu thì được dùng.
+- **Nhịp ngắt** bằng câu rất ngắn hoặc "…" ở phim chậm.
+- **Nói với người xem** ("bạn", "mình") hoặc ngôi thứ nhất của nhân vật.
+
+**Vẫn không được:**
+- Ví von phải ngẫm mới hiểu: "phù sa loang ra biển", "lịch làm việc không còn do con người viết".
+- Chồng chữ marketing rỗng, phía sau không có gì: "Kiến tạo chuẩn sống thượng lưu, nơi tinh hoa hội tụ".
+- Câu dài quá khoảng 20 chữ, hoặc 2 vế phụ trở lên. Đọc một hơi không hết là dài.
+- Tả lại đúng cái hình đang chiếu ("Đây là hồ bơi"). VO nói thứ hình không nói được: lý do, cảm giác, điều phía sau.
+- Tự đặt số liệu, ước lượng khách chưa cấp.
+- Trộn tiếng Anh vào câu Việt (trừ tên riêng, slogan khách đã duyệt).
+
+**4 bài test cho VO** (thay cho 4 test ở mục 0):
+
+| Test | Hỏi | Rớt thì làm gì |
+|---|---|---|
+| **Nghe một lần** | Đọc to một lần, người không làm phim có hiểu không? | Bỏ ví von khó, đổi từ |
+| **Có nhịp** | Đọc to có chỗ nhấn, chỗ nghỉ, nghe như lời phim chứ không như thuyết minh tin tức? | Thêm song hành, cắt ngắn, sắp lại thứ tự để chữ quan trọng rơi cuối câu |
+| **Hình không nói thay được** | Bỏ câu này đi, hình có tự nói được không? Nếu được thì câu đang thừa | Đổi sang nói lý do, cảm giác, điều phía sau |
+| **Thay tên thương hiệu** | Thay tên khác vào, câu vẫn đúng? | Gắn vào chi tiết thật của dự án, của khách |
+
+**Ví dụ**
+
+| Quá văn | Quá thô | Vừa |
+|---|---|---|
+| Giữa biển khơi bao la, những cánh quạt khổng lồ vươn mình đón gió, viết nên chương mới cho năng lượng xanh. | Dự án có các turbine cách bờ 10 km, đã đi vào vận hành. | Cách bờ hơn 10 km… những turbine đầu tiên đã bắt đầu quay. Từ gió biển, một nguồn điện mới cho cả vùng. |
+| Nơi tinh hoa hội tụ, kiến tạo chuẩn sống thượng lưu. | Căn hộ 3 phòng ngủ, có hồ bơi trên tầng thượng. | Sáng nhìn ra sông. Chiều xuống hồ bơi trên tầng thượng. Tối về, cả nhà ngồi chung một bàn. |
+| Bền bỉ như thời gian, vững chãi như núi đá ngàn năm. | Công ty đã hoạt động lâu năm và làm nhiều dự án. | Mỗi công trình bàn giao là một lời hứa đã giữ. *(số năm, số dự án lấy từ khách)* |
+
+*(số liệu trong ví dụ là minh họa, khi viết thật lấy theo khách cấp)*
+
+- **Slogan, tagline:** theo chuẩn này, ngắn hơn nữa (tối đa 3 vế). Khách đã duyệt thì giữ đúng nguyên văn.
+- **Câu VO mẫu** do agent viết luôn ghi "[mẫu - chờ duyệt]".
 
 ---
 
@@ -224,9 +274,7 @@ Bỏ, hoặc thay bằng chi tiết thật của dự án.
 - Trước: "Phim mở ra trong ráng chiều, khi mặt nước đồng loang ánh sáng cuối ngày, như một lời hẹn với gió."
 - Sau: "Mở phim bằng flycam bay thấp trên mặt biển lúc hoàng hôn, phía xa thấy hàng turbine. VO đọc câu đầu tiên."
 
-**VO**
-- Trước: "Giữa biển khơi bao la, những cánh quạt khổng lồ vươn mình đón gió, viết nên chương mới cho năng lượng xanh."
-- Sau: "Cách bờ hơn 10 km, các turbine đã bắt đầu quay. Đây là nguồn điện mới cho cả vùng." *(số liệu theo khách cấp)*
+**VO**: xem bảng ví dụ ở mục 10A (quá văn / quá thô / vừa).
 
 **Cột mục đích**
 - Trước: "Khắc họa tinh thần bền bỉ của những người thầm lặng."
@@ -245,12 +293,13 @@ Bỏ, hoặc thay bằng chi tiết thật của dự án.
 ## 12. Tự rà trước khi giao (thêm vào QC `08`)
 Đọc lại toàn bộ chữ, mỗi câu hỏi:
 1. Khách đọc một lần có hiểu sẽ quay gì / cần làm gì không?
-2. Có từ nào phải tra hoặc đoán nghĩa không? (văn chương, Hán Việt nặng, marketing sáo rỗng, cảm tính, thuật ngữ, tiếng Anh) → đổi.
+2. (Phần mô tả) Có từ nào phải tra hoặc đoán nghĩa không? (văn chương, Hán Việt nặng, marketing sáo rỗng, cảm tính, thuật ngữ, tiếng Anh) → đổi.
 3. Có ví von, nhân hóa, gán cảm xúc cho đồ vật không? → nói thẳng thấy gì.
 4. Thay tên dự án khác vào câu vẫn đúng không? → viết lại cụ thể.
 5. Có đang khóa vào thứ ngoài thực tế không kiểm soát được, hoặc hứa thứ chưa chốt không? → nới ra, ghi dự phòng, ghi "chờ xác nhận".
 6. Câu có dài quá, chủ ngữ có mờ, có "tiến hành / thực hiện việc / nhằm" không? → tách, viết thẳng.
 7. Một thứ có đang bị gọi bằng nhiều tên không? Số, ngày, đơn vị có ghi thống nhất không?
+8. (VO, slogan) Qua đủ 4 test ở mục 10A chưa? Có câu nào quá văn, hoặc thô như thuyết minh tin tức không?
 
 ---
 
@@ -292,7 +341,11 @@ LUẬT:
 7. Một thứ một tên trong cả bài. Ghi số, ngày, đơn vị thống nhất.
 8. Email/tin nhắn: xưng "bên mình - anh/chị", câu đầu nói việc chính, việc cần khách làm
    ghi rõ hạn. Không tự khen.
-9. KHÔNG được: đổi số liệu, tên riêng, chức danh, slogan khách đã duyệt, timecode,
+9. RIÊNG VO / slogan: không viết thô như mô tả. Được dùng câu song hành, bộ ba,
+   hình ảnh gợi cảm xúc người nghe thấy ngay, nhịp ngắt. Vẫn không ví von phải ngẫm,
+   không chồng chữ marketing rỗng, câu dưới khoảng 20 chữ, không tả lại cái hình đang chiếu.
+   Thử: đọc to một lần có hiểu, có nhịp, nghe như lời phim chứ không như thuyết minh tin tức.
+10. KHÔNG được: đổi số liệu, tên riêng, chức danh, slogan khách đã duyệt, timecode,
    cấu trúc bảng; thêm thông tin mới. Chỗ nào thiếu thông tin để viết cụ thể thì ghi
    [CẦN BỔ SUNG: ...], không tự bịa.
 

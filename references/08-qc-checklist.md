@@ -19,7 +19,8 @@
 - [ ] Khách đọc một lần hiểu sẽ quay gì; không còn từ văn chương, ví von, thuật ngữ quay/dựng khó hiểu.
 - [ ] Ô hình ảnh không ghi số giây từng cảnh; không khóa vào thời tiết / hướng gió.
 - [ ] Mục đích, tên phần, "Để làm gì" của chuyển cảnh, ý đồ phỏng vấn đều nói thẳng nội dung.
-- [ ] Mọi câu qua 4 test (`11` mục 0): đọc một lần · nói qua điện thoại · thấy được, làm được · thay tên dự án.
+- [ ] VO, slogan qua 4 test riêng (`11` mục 10A): nghe một lần · có nhịp · hình không nói thay được · thay tên thương hiệu. Không quá văn, không thô như thuyết minh tin tức.
+- [ ] Phần mô tả qua 4 test (`11` mục 0): đọc một lần · nói qua điện thoại · thấy được, làm được · thay tên dự án.
 - [ ] Chạy đủ 7 câu tự rà ở `11` mục 12 (6 nhóm từ, một thứ một tên, câu ngắn, chủ ngữ rõ, không "tiến hành / nhằm", số - ngày - đơn vị thống nhất).
 
 **Nội dung**

@@ -62,9 +62,9 @@ Hình ảnh sạch, có chủ đích; nhịp được kiểm soát; cảm xúc c
 - Song hành, đối lập: "không chỉ… mà…", "Xây bằng chuẩn mực – Dựng bằng trách nhiệm – Giữ bằng cam kết dài lâu".
 - Bộ ba: "Đa dạng Trạng thái / Sắc thái / Hình thái".
 - BĐS, tập đoàn → hùng tráng, tầm vóc, có số liệu (số liệu phải từ khách).
-- Lifestyle, vật liệu, sản phẩm thủ công → chậm, nhẹ, ngắt nhịp bằng "…" (nhịp chậm chứ không phải câu văn thơ, ví von khó hiểu).
+- Lifestyle, vật liệu, sản phẩm thủ công → chậm, nhẹ, ngắt nhịp bằng "…" (nhịp chậm, không phải ví von khó hiểu).
 - Câu ngắn, mỗi câu VO gắn với 1 beat hình.
-- Mọi chữ giao khách (cả VO) theo `11-cach-viet-dung-chu.md`: từ phổ thông, nói thẳng, không ví von.
+- VO theo chuẩn riêng ở `11` mục 10A: có giọng, có nhịp, nghe một lần hiểu. Không viết thô như mô tả hình, cũng không ví von phải ngẫm.
 
 ## Thói quen viết (giữ nguyên)
 - Cột **Source** cho từng cảnh: `Shooting` · `Stock` · `AI generation` · `Graphic` · `3D` · `Tư liệu` · `Shooting kết hợp AI generation`.

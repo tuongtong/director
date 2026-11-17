@@ -67,7 +67,7 @@ Việc của đoạn, chọn trong các loại:
 **Luật chung:**
 - VO tiếng Việt đọc 3-4 tiếng mỗi giây.
 - Phim quảng cáo từ 30 giây trở xuống thì VO dài tối đa ~2/3 thời lượng phim (`director/04`).
-- Chữ VO viết theo `director/11`: từ phổ thông, không ví von khó hiểu.
+- Chữ VO viết theo `director/11` mục 10A: có giọng, có nhịp, không thô như mô tả, không ví von phải ngẫm.
 
 **Sau câu kết luận bằng lời, cân nhắc bỏ hẳn lời:**
 - Để hình chứng minh điều lời vừa nói (InterContinental 01:26-01:57).
