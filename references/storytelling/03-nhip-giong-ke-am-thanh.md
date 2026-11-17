@@ -1,40 +1,56 @@
-# 03 - ĐƯỜNG CONG NHỊP · GIỌNG KỂ · ÂM THANH
+# 03 - NHỊP PHIM · GIỌNG KỂ · ÂM THANH
 © 2026 Đạo diễn Tường Tống - Space Gray Production
 
-> Vẽ đường cong năng lượng **trước** khi viết shot. Nhịp là cấu trúc, không phải việc của editor ở cuối.
+> Vẽ nhịp phim **trước** khi viết từng cảnh. Nhịp phim là khung của phim. Không để tới cuối mới giao cho người dựng lo.
 
 ---
 
-## A. Đường cong năng lượng
+## A. Nhịp phim
 
-Chấm mỗi beat từ 1 (yên) đến 5 (bùng), rồi kiểm tra theo 5 luật:
+Chấm mỗi đoạn từ 1 (yên) đến 5 (bùng). Sau đó kiểm tra theo 5 luật:
 
-1. **Mở có chủ đích:** chậm/bí ẩn (Maison Privée theo lưng 5s) hoặc tò mò ngay (SOHO nét phấn). Social 9:16 thì hook trong 2 giây (`director/01` Kênh & định dạng).
-2. **Đúng một nhịp nghỉ trước cú lớn nhất.** Nhạc lặng 2-3s hoặc một khung đứng yên 3-4s.
-   - SOHO: nhạc lặng 00:54-00:57 → bùng 00:58.
-   - InterContinental: nhạc lặng ~00:54 → bùng 00:56 đúng lúc bọt trắng nổ dưới nước.
-   - Wink: khung phố đứng yên 01:07.75-01:11.5 → xe bus ập vào.
-3. **Shot giữ lâu nhất = shot quan trọng nhất.** Sau một đoạn cắt nhanh, giữ 4-9s ở khoảnh khắc trả lời.
-   - SOHO 01:20-01:27 (~7s), InterContinental tháp + bếp lửa 02:06-02:15.
-4. **Không để hai cao trào giống nhau.** Wink có tiệc rooftop và tiệc trong bus cùng năng lượng → cú bus yếu đi.
-5. **Kết hạ nhịp:** nhạc hạ dần, có thể gần như im lặng dưới logo (Maison Privée -50 LUFS ở 02:16).
+1. **Mở phim có chủ đích.** Có 2 cách:
+   - Mở chậm, chưa cho biết gì. Ví dụ Maison Privée: máy đi theo sau lưng nhân vật 5 giây.
+   - Mở cho người xem tò mò ngay. Ví dụ SOHO: nét phấn vẽ ra.
+   - Phim dọc 9:16 cho mạng xã hội thì đoạn mở đầu phải giữ người xem trong 2 giây đầu (`director/01` Kênh & định dạng).
+2. **Có đúng một lần nghỉ trước lúc lớn nhất.** Nhạc lặng 2-3 giây, hoặc một khung hình đứng yên 3-4 giây.
+   - SOHO: nhạc lặng 00:54-00:57 → nhạc bùng 00:58.
+   - InterContinental: nhạc lặng ~00:54 → nhạc bùng 00:56, đúng lúc bọt trắng nổ dưới nước.
+   - Wink: khung phố đứng yên 01:07.75-01:11.5 → xe bus lao vào khung.
+3. **Cảnh giữ lâu nhất là cảnh quan trọng nhất.** Sau một đoạn cắt nhanh, giữ 4-9 giây ở cảnh trả lời.
+   - SOHO 01:20-01:27 (~7 giây).
+   - InterContinental tháp + bếp lửa 02:06-02:15.
+4. **Không để hai đoạn cao trào giống nhau.** Wink có tiệc trên sân thượng và tiệc trong xe bus, mạnh ngang nhau. Vì vậy đoạn xe bus yếu đi.
+5. **Kết phim thì hạ nhịp.** Nhạc nhỏ dần. Dưới logo có thể gần như im lặng (Maison Privée -50 LUFS ở 02:16).
 
-**Mẫu bảng nhịp (đưa vào Story Blueprint):**
+**Mẫu bảng nhịp phim (đưa vào Story Blueprint):**
 ```
-| TC | Beat | Chức năng | Cảm xúc người xem | Năng lượng 1-5 | Nhịp cắt |
+| TC | Đoạn | Việc của đoạn | Người xem cảm thấy gì | Năng lượng 1-5 | Cắt nhanh / chậm |
 ```
-Chức năng dùng: hook · setup · conflict · turn · payoff · brand reveal · CTA · button.
+Việc của đoạn, chọn trong các loại:
+- đoạn mở đầu
+- giới thiệu (nhân vật, nơi chốn)
+- vấn đề
+- bước ngoặt
+- trả lời (trả cho phần đã gài trước)
+- lúc lộ ra (lộ sản phẩm / lộ dự án)
+- câu kêu gọi
+- câu hoặc hình chốt
 
-**Nhịp cắt tham khảo (ASL):** phim nghi thức/sang ~2-2,5s ở phần đầu; montage 0,9-1,2s; phim hài nhiều nhân vật ~1,1s đều; shot trả lời 4-9s.
+**Độ dài trung bình mỗi cảnh, để tham khảo:**
+- Phim nghi thức, phim sang: ~2-2,5 giây ở phần đầu.
+- Chuỗi cảnh: 0,9-1,2 giây.
+- Phim hài nhiều nhân vật: ~1,1 giây, đều nhau.
+- Cảnh trả lời: 4-9 giây.
 
 ---
 
 ## B. Chương và dấu chấm
 
-- **Màn đen 0,5-1s** = dấu chấm giữa hai chương. *InterContinental 01:25: VO kết luận → đen → montage không lời.*
-- **Tableau trước dấu chấm:** một khung đứng yên 3s gần như không hành động. *InterContinental 01:22-01:25 hiên villa.*
-- **Shot "khai màn" sau dấu chấm:** nhân vật chính diện, tư thế mở (dang tay, quay lại, bước vào). *InterContinental 01:26 cậu bé dang tay trước cầu trượt.*
-- **Nháy đen 1 frame** trong montage = một nhịp trống. *Wink 00:54.*
+- **Màn đen 0,5-1 giây** là dấu chấm giữa hai chương. *InterContinental 01:25: VO nói câu kết luận → màn đen → chuỗi cảnh không lời.*
+- **Khung đứng yên trước dấu chấm:** một khung hình đứng yên 3 giây, gần như không có ai làm gì. *InterContinental 01:22-01:25: hiên villa.*
+- **Cảnh mở chương sau dấu chấm:** nhân vật quay mặt thẳng vào máy, dáng mở (dang tay, quay lại, bước vào). *InterContinental 01:26: cậu bé dang tay trước cầu trượt.*
+- **Chèn 1 khung hình đen** trong chuỗi cảnh để tạo một lần ngắt. *Wink 00:54.*
 
 ---
 
@@ -42,23 +58,30 @@ Chức năng dùng: hook · setup · conflict · turn · payoff · brand reveal 
 
 | Giọng | Khi nào | Luật viết | Ví dụ |
 |---|---|---|---|
-| **Câu hỏi lặp** | khung câu hỏi tu từ | cùng một mẫu câu; chữ trên màn hình tách 3 nhịp (mệnh đề / vế A / vế B), mỗi nhịp đè một shot | SOHO |
-| **Nhân vật trong phim nói** | khung nghi thức | thoại khớp khẩu hình ở phần đầu, chuyển thành VO khi vào montage; câu cực ngắn ("Lot one.") | Maison Privée |
-| **Danh sách từ** | khung danh sách | 1-3 chữ mỗi câu, ngắt dài; mỗi chữ là nhãn cho 2-4 shot; một câu kết luận dài hơn | InterContinental |
-| **Không lời + bài hát** | khán giả đa ngôn ngữ, phim nhiều gag | lời bài hát kể nội tâm; thông tin sản phẩm nằm trong bối cảnh (biển hiệu, livery) | Wink, Nescafé |
-| **VO kể song hành** | corporate, BĐS | theo `director/01` Giọng VO | 3T |
+| **Câu hỏi lặp** | khung kể bằng câu hỏi | Dùng cùng một mẫu câu. Chữ trên màn hình tách làm 3 lần hiện (vế chung / vế A / vế B). Mỗi lần hiện nằm trên một cảnh | SOHO |
+| **Nhân vật trong phim nói** | khung kể theo nghi thức | Phần đầu cho nhân vật nói thoại, khớp miệng. Vào chuỗi cảnh thì chuyển thành VO. Câu thật ngắn ("Lot one.") | Maison Privée |
+| **Danh sách từ** | khung kể bằng danh sách | Mỗi câu 1-3 chữ, ngắt dài giữa các câu. Mỗi chữ đi kèm 2-4 cảnh. Có một câu kết luận dài hơn | InterContinental |
+| **Không lời, chỉ có bài hát** | người xem nói nhiều thứ tiếng, phim nhiều tình huống gây cười | Lời bài hát nói thay suy nghĩ nhân vật. Thông tin sản phẩm nằm sẵn trong cảnh (biển hiệu, chữ sơn trên xe) | Wink, Nescafé |
+| **VO kể song song với hình** | corporate, BĐS | Theo `director/01` Giọng VO | 3T |
 
-**Luật chung:** VO tiếng Việt 3-4 âm tiết/giây; TVC ≤30s thì VO tối đa ~2/3 thời lượng (`director/04`). Chữ VO theo `director/11`: từ phổ thông, không ví von khó hiểu.
+**Luật chung:**
+- VO tiếng Việt đọc 3-4 tiếng mỗi giây.
+- Phim quảng cáo từ 30 giây trở xuống thì VO dài tối đa ~2/3 thời lượng phim (`director/04`).
+- Chữ VO viết theo `director/11`: từ phổ thông, không ví von khó hiểu.
 
-**Sau câu kết luận bằng lời, cân nhắc im lời hoàn toàn:** để hình chứng minh điều lời vừa nói (InterContinental 01:26-01:57). Rồi cho lời **quay lại một lần cuối** để trả lời câu hỏi mở đầu, có thể đổi giọng (hỏi người xem → ngôi thứ nhất "tôi dần nhận ra"), đúng lúc công trình/sản phẩm hiện ra (InterContinental 01:57-02:14).
+**Sau câu kết luận bằng lời, cân nhắc bỏ hẳn lời:**
+- Để hình chứng minh điều lời vừa nói (InterContinental 01:26-01:57).
+- Sau đó cho lời **quay lại một lần cuối**, để trả lời câu hỏi lúc mở phim.
+- Lúc này có thể đổi cách nói: từ hỏi người xem sang tự nói về mình ("tôi dần nhận ra").
+- Lời quay lại đúng lúc công trình hoặc sản phẩm hiện ra (InterContinental 01:57-02:14).
 
 ---
 
 ## D. Âm thanh
 
-- **Nhạc lặng → bùng** đặt đúng chỗ đổi chương (xem A.2).
-- **Ba thứ khóa cùng một điểm:** hành động + hình che khung + âm bùng. *InterContinental 00:54-00:56: bố nhảy hồ + bọt trắng + nhạc bùng.*
-- **SFX bám chữ VO** (nói gì nghe nấy): "tiếng sóng biển" thì có tiếng sóng, "tiếng cười giòn" thì có tiếng cười.
-- **Button âm thanh sau logo:** một tiếng chốt (búa gõ, tiếng chạm) 1-2s trước end card. *Maison Privée 02:20.* Khớp DNA 3T "kết bằng âm thanh nhỏ".
-- **Giọng hát vào = chương mới:** bài hát có lời thì để giọng vào đúng lúc nhân vật chính xuất hiện. *Wink ~00:30.*
+- **Nhạc lặng rồi nhạc bùng:** đặt đúng chỗ đổi chương (xem A.2).
+- **Ba thứ rơi cùng một điểm:** hành động + một thứ che kín khung hình + lúc nhạc bùng. *InterContinental 00:54-00:56: người bố nhảy xuống hồ + bọt trắng + nhạc bùng.*
+- **SFX bám theo chữ VO** (nói gì nghe nấy). VO nói "tiếng sóng biển" thì có tiếng sóng. VO nói "tiếng cười giòn" thì có tiếng cười.
+- **Tiếng chốt sau logo:** một tiếng ngắn (búa gõ, tiếng chạm) dài 1-2 giây, trước màn kết. *Maison Privée 02:20.* Hợp với DNA 3T "kết bằng âm thanh nhỏ".
+- **Giọng hát vào là sang chương mới.** Bài hát có lời thì cho giọng hát vào đúng lúc nhân vật chính xuất hiện. *Wink ~00:30.*
 - Prompt Seedance: audio chỉ SFX (luật `director`). Nhạc chọn riêng theo `director/06`.
