@@ -1,12 +1,12 @@
 ---
 name: director
 description: >-
-  Skill đạo diễn chính của Đạo diễn Tường Tống (Space Gray Production). Ưu tiên dùng skill này thay cho director-treatment (ColorMedia). Làm 3 loại sản phẩm: SCRIPT (kịch bản bảng + cut-down), PROPOSAL (deck đi pitch), PPM DECK (họp tiền kỳ). Có spine & khoảnh khắc nhớ mãi, chuyển cảnh chữ ký + Transition Map, phần DP (ánh sáng · màu sắc · cú máy), music & sound, wardrobe, props, shot list, prompt + ảnh/video AI, xuất Canva hoặc folder; nhớ tiến độ từng job để làm tiếp và sửa theo feedback. Dùng khi người dùng nói "viết kịch bản", "làm cut-down", "làm proposal", "làm treatment", "làm PPM", "dựng deck đạo diễn", "storyboard", "shot list", "tiếp tục dự án …", "sửa theo feedback khách", hoặc được skill brief chuyển giao.
+  Skill đạo diễn chính của Đạo diễn Tường Tống (Space Gray Production). Ưu tiên dùng skill này thay cho director-treatment (ColorMedia). Làm 3 loại sản phẩm: SCRIPT (kịch bản bảng + cut-down), PROPOSAL (deck đi pitch), PPM DECK (họp tiền kỳ). Có spine & khoảnh khắc nhớ mãi, chuyển cảnh chữ ký + Transition Map, phần DP (ánh sáng · màu sắc · cú máy), music & sound, wardrobe, props, shot list, prompt + ảnh/video AI, xuất Canva hoặc folder; nhớ tiến độ từng job để làm tiếp và sửa theo feedback. Dùng khi người dùng nói "viết kịch bản", "làm cut-down", "làm proposal", "làm treatment", "làm PPM", "dựng deck đạo diễn", "storyboard", "shot list", "kể chuyện", "dựng câu chuyện", "khung kể", "story blueprint", "soát câu chuyện", "phim bất động sản", "TVC dự án", "launch film", "project tour", "big idea BĐS", "tiếp tục dự án …", "sửa theo feedback khách", hoặc được skill brief chuyển giao.
 license: "© 2026 Đạo diễn Tường Tống - Space Gray Production. All rights reserved."
 metadata:
   author: "Đạo diễn Tường Tống (3T)"
   studio: "Space Gray Production"
-  version: "1.5.0"
+  version: "1.6.0"
 ---
 
 # DIRECTOR - Hồ sơ đạo diễn Space Gray
@@ -25,13 +25,15 @@ metadata:
 | `04-script-shotlist-format.md` | Viết kịch bản, cut-down, shot list |
 | `02-proposal-ppm-structure.md` | Dựng Proposal / PPM |
 | `03-dp-anh-sang-mau-cu-may.md` | Viết phần DP, storyline, shot list |
+| `12-bds.md` | **Brief là phim bất động sản** (TVC/iTVC dự án, launch film, project tour, brand film chủ đầu tư): loại phim, archetype A1-A10, nhịp chuẩn, quy tắc, checklist BĐS |
+| `13-storytelling.md` | Phim cần khung kể rõ (iTVC, brand film, BĐS hạng sang) → **DỰNG** Story Blueprint trước bước 2; hoặc **SOÁT** câu chuyện của kịch bản / bản dựng. Kèm 6 file chi tiết ở `references/storytelling/` |
 | `05-prompt-standards.md` | Viết prompt ảnh/video AI |
 | `06-asset-engine.md` | Tạo ảnh/video, reference, music options |
 | `07-output-canva-folder.md` | Folder job, Asset ID, ráp Canva / folder |
 | `08-qc-checklist.md` | Trước khi giao |
 | `10-concept-statement.md` | Viết / viết lại concept statement, tagline, tuyên ngôn gửi khách (nhất là doanh nghiệp nhiều mảng, hồ sơ đấu thầu) |
 
-**Skill đi kèm `director-storytelling`** (`~/.claude/skills/director-storytelling/`): lo phần "phim kể bằng cách nào" (câu căng, khung kể, motif, cài trước - trả lời, lộ sản phẩm, đường cong nhịp, giọng kể, kết) và giải phẫu video ref. Có `00_brief/00_story-blueprint.md` trong job → đọc trước bước 2 và dùng làm gốc, không hỏi lại.
+**Module kể chuyện** (`13-storytelling.md` + `references/storytelling/`): câu căng, khung kể, vật thể hóa, motif, cài trước - trả lời, lộ sản phẩm, đường cong nhịp, giọng kể, kết. Có `00_brief/00_story-blueprint.md` trong job → đọc trước bước 2 và dùng làm gốc, không hỏi lại. Khi viết kịch bản (bước 3) và QC (bước 10), áp dụng `storytelling/06-nguyen-tac.md` và 10 phép thử ở `storytelling/07-phep-thu-cau-chuyen.md`.
 
 Script (`~/.claude/skills/director/scripts/`):
 - `make_project.py` - tìm / tạo folder job, tự tăng version, `--copy-prev` khi sửa.
@@ -58,7 +60,7 @@ Rồi in **1 dòng mặc định** để 3T sửa nếu muốn:
 ## Quy trình (text trước → duyệt → asset → ráp)
 
 1. **Job:** `make_project.py` (MỚI) hoặc `--find` (TIẾP TỤC/SỬA). Mọi quyết định đã chốt ghi vào `00_project.md`.
-2. **Neo phim** (`01`): viết **Spine** (phim thực sự nói về điều gì, 1 câu) + **khoảnh khắc nhớ mãi** + chọn **2-3 chữ ký DNA** hợp brief, mỗi chữ ký 1 dòng lý do. Đọc **kênh & định dạng** để chỉnh nhịp mở phim. Có Story Blueprint → lấy spine, khung kể, cài trước - trả lời, đường cong nhịp từ đó. Chưa có mà phim cần một cách kể rõ (iTVC, brand film, BĐS hạng sang) → đề xuất chạy `director-storytelling` chế độ DỰNG trước.
+2. **Neo phim** (`01`): viết **Spine** (phim thực sự nói về điều gì, 1 câu) + **khoảnh khắc nhớ mãi** + chọn **2-3 chữ ký DNA** hợp brief, mỗi chữ ký 1 dòng lý do. Đọc **kênh & định dạng** để chỉnh nhịp mở phim. Có Story Blueprint → lấy spine, khung kể, cài trước - trả lời, đường cong nhịp từ đó. Chưa có mà phim cần một cách kể rõ (iTVC, brand film, BĐS hạng sang) → chạy chế độ DỰNG của `13-storytelling.md` trước (dừng cho 3T chọn khung kể).
 3. **Kịch bản / storyline** (`04`): beat theo timecode, mỗi cảnh có Mục đích, Source, Hình (ánh sáng · màu · cú máy), Âm thanh, TEXT. Kịch bản khách → giữ nguyên chữ, chỉ thêm phần hình. Cut-down: viết riêng, không cắt máy móc (`04` mục cut-down).
 4. **Transition Map** (`09`): 1 chuyển cảnh chữ ký ★ lặp 2-3 lần + map mọi ranh giới PHẦN/beat.
 5. **Lớp ý đồ** (Proposal/PPM): Director's Vision · Mood & Tone · Color Palette phim · DP · Acting · Music & Sound · Wardrobe · Props/Art direction · VFX/3D.

@@ -56,7 +56,7 @@ Nếu không cài, `write_table.py` vẫn chạy nhưng xuất .csv thay vì .xl
 
 **4. Mở lại Claude Code**, gõ `/director` để kiểm tra skill đã nhận.
 
-Nên cài kèm các skill đi cùng: `brief` (phân tích brief khách, chuyển giao sang director), `director-storytelling` (dựng câu chuyện trước khi viết kịch bản), `image-prompt-3t` và `seedance-video-prompt` (viết prompt ảnh/video AI).
+Nên cài kèm các skill đi cùng: `brief` (phân tích brief khách, chuyển giao sang director), `director` (module kể chuyện) (dựng câu chuyện trước khi viết kịch bản), `image-prompt-3t` và `seedance-video-prompt` (viết prompt ảnh/video AI).
 
 ## Cập nhật bản mới
 Trên máy đã cài:
