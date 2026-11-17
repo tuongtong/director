@@ -48,9 +48,9 @@ Shot con: `2a/b/c` cho chuỗi jump cut / sliding cut.
 `Shooting` · `Stock` · `AI generation` · `Graphic` · `3D` · `Tư liệu` · `Shooting kết hợp AI generation`
 
 ## 4. Kiểm tra thời lượng & VO
-- VO tiếng Việt khoảng 3-4 âm tiết/giây (ước tính). Phần VO dài hơn số giây → cờ.
+- VO tiếng Việt tính ngân sách theo `14` mục 3: 2,6 chữ/giây (giọng cảm xúc), 3,0 chữ/giây (giọng thuyết minh). Phần VO dài hơn số giây → cờ.
 - Tổng các dòng = thời lượng phim (write_table tự cộng dòng TỔNG).
-- TVC ≤ 30s: VO tối đa khoảng 2/3 thời lượng, chừa chỗ cho hình và điểm lặng.
+- TVC ≤ 30s: VO tối đa khoảng 2/3 thời lượng, chừa chỗ cho hình và điểm lặng. Phim cảm xúc nhắm 40-50% (`14` mục 3).
 
 ## 5. Cut-down
 Mỗi bản cut-down là **một phim riêng**, viết bảng riêng (`02_script_15s.xlsx`, `02_script_30s.xlsx` trong cùng folder version).

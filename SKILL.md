@@ -1,12 +1,12 @@
 ---
 name: director
 description: >-
-  Skill đạo diễn chính của Đạo diễn Tường Tống (Space Gray Production). Ưu tiên dùng skill này thay cho director-treatment (ColorMedia). Làm 3 loại sản phẩm: SCRIPT (kịch bản bảng + cut-down), PROPOSAL (deck đi pitch), PPM DECK (họp tiền kỳ). Có spine & khoảnh khắc nhớ mãi, chuyển cảnh chữ ký + Transition Map, phần DP (ánh sáng · màu sắc · cú máy), music & sound, wardrobe, props, shot list, prompt + ảnh/video AI, xuất Canva hoặc folder; nhớ tiến độ từng job để làm tiếp và sửa theo feedback. Dùng khi người dùng nói "viết kịch bản", "làm cut-down", "làm proposal", "làm treatment", "làm PPM", "dựng deck đạo diễn", "storyboard", "shot list", "kể chuyện", "dựng câu chuyện", "khung kể", "story blueprint", "soát câu chuyện", "phim bất động sản", "TVC dự án", "launch film", "project tour", "big idea BĐS", "tiếp tục dự án …", "sửa theo feedback khách", hoặc được skill brief chuyển giao.
+  Skill đạo diễn chính của Đạo diễn Tường Tống (Space Gray Production). Ưu tiên dùng skill này thay cho director-treatment (ColorMedia). Làm 3 loại sản phẩm: SCRIPT (kịch bản bảng + cut-down), PROPOSAL (deck đi pitch), PPM DECK (họp tiền kỳ). Có spine & khoảnh khắc nhớ mãi, chuyển cảnh chữ ký + Transition Map, phần DP (ánh sáng · màu sắc · cú máy), music & sound, wardrobe, props, shot list, prompt + ảnh/video AI, xuất Canva hoặc folder; nhớ tiến độ từng job để làm tiếp và sửa theo feedback. Dùng khi người dùng nói "viết kịch bản", "làm cut-down", "làm proposal", "làm treatment", "làm PPM", "dựng deck đạo diễn", "storyboard", "shot list", "kể chuyện", "dựng câu chuyện", "khung kể", "story blueprint", "soát câu chuyện", "phim bất động sản", "TVC dự án", "launch film", "project tour", "big idea BĐS", "viết VO", "viết voice over", "lời bình", "sửa VO", "tiếp tục dự án …", "sửa theo feedback khách", hoặc được skill brief chuyển giao.
 license: "© 2026 Đạo diễn Tường Tống - Space Gray Production. All rights reserved."
 metadata:
   author: "Đạo diễn Tường Tống (3T)"
   studio: "Space Gray Production"
-  version: "1.9.0"
+  version: "1.10.0"
 ---
 
 # DIRECTOR - Hồ sơ đạo diễn Space Gray
@@ -26,6 +26,7 @@ metadata:
 | `02-proposal-ppm-structure.md` | Dựng Proposal / PPM |
 | `03-dp-anh-sang-mau-cu-may.md` | Viết phần DP, storyline, shot list |
 | `12-bds.md` | **Brief là phim bất động sản** (TVC/iTVC dự án, launch film, project tour, brand film chủ đầu tư): loại phim, archetype A1-A10, nhịp chuẩn, quy tắc, checklist BĐS |
+| `14-vo.md` | **Mỗi khi viết VO** (kịch bản, cut-down, VO mẫu, soát VO khách): 3 họ VO, ngôi kể, điệp khúc, từ khóa riêng, ngân sách chữ (2,6 chữ/giây), chỗ im, bảng giao VO, tự rà VO |
 | `13-storytelling.md` | Phim cần khung kể rõ (iTVC, brand film, BĐS hạng sang) → **DỰNG** Story Blueprint trước bước 2; hoặc **SOÁT** câu chuyện của kịch bản / bản dựng. Kèm 6 file chi tiết ở `references/storytelling/` |
 | `05-prompt-standards.md` | Viết prompt ảnh/video AI |
 | `06-asset-engine.md` | Tạo ảnh/video, reference, music options |
@@ -60,8 +61,8 @@ Rồi in **1 dòng mặc định** để 3T sửa nếu muốn:
 ## Quy trình (text trước → duyệt → asset → ráp)
 
 1. **Job:** `make_project.py` (MỚI) hoặc `--find` (TIẾP TỤC/SỬA). Mọi quyết định đã chốt ghi vào `00_project.md`.
-2. **Neo phim** (`01`): viết **Spine** (phim thực sự nói về điều gì, 1 câu) + **khoảnh khắc nhớ mãi** + chọn **2-3 chữ ký DNA** hợp brief, mỗi chữ ký 1 dòng lý do. Đọc **kênh & định dạng** để chỉnh nhịp mở phim. Có Story Blueprint → lấy spine, khung kể, gài trước trả sau, nhịp phim từ đó. Chưa có mà phim cần một cách kể rõ (iTVC, brand film, BĐS hạng sang) → chạy chế độ DỰNG của `13-storytelling.md` trước (dừng cho 3T chọn khung kể).
-3. **Kịch bản / storyline** (`04`): beat theo timecode, mỗi cảnh có Mục đích, Source, Hình (ánh sáng · màu · cú máy), Âm thanh, TEXT. Kịch bản khách → giữ nguyên chữ, chỉ thêm phần hình. Cut-down: viết riêng, không cắt máy móc (`04` mục cut-down).
+2. **Neo phim** (`01`): viết **Spine** (phim thực sự nói về điều gì, 1 câu) + **khoảnh khắc nhớ mãi** + chọn **2-3 chữ ký DNA** hợp brief, mỗi chữ ký 1 dòng lý do. Đọc **kênh & định dạng** để chỉnh nhịp mở phim. Phim có VO → chốt luôn **họ VO · ngôi kể · điệp khúc · từ khóa riêng · cặp câu mở - câu kết** (`14`). Có Story Blueprint → lấy spine, khung kể, gài trước trả sau, nhịp phim từ đó. Chưa có mà phim cần một cách kể rõ (iTVC, brand film, BĐS hạng sang) → chạy chế độ DỰNG của `13-storytelling.md` trước (dừng cho 3T chọn khung kể).
+3. **Kịch bản / storyline** (`04`): beat theo timecode, mỗi cảnh có Mục đích, Source, Hình (ánh sáng · màu · cú máy), Âm thanh, TEXT. VO: đánh dấu chỗ im trên nhịp phim trước, rồi viết lời theo `14`, đếm chữ theo ngân sách. Kịch bản khách → giữ nguyên chữ, chỉ thêm phần hình. Cut-down: viết riêng, không cắt máy móc (`04` mục cut-down).
 4. **Transition Map** (`09`): 1 chuyển cảnh chữ ký ★ lặp 2-3 lần + map mọi ranh giới PHẦN/beat.
 5. **Lớp ý đồ** (Proposal/PPM): Director's Vision · Mood & Tone · Color Palette phim · DP · Acting · Music & Sound · Wardrobe · Props/Art direction · VFX/3D.
 6. **⏸ DỪNG - DUYỆT TREATMENT CHỮ.** Trình 1 trang: Spine · khoảnh khắc nhớ mãi · chữ ký DNA đã chọn · mood & palette · danh sách beat (1 dòng/beat) · chuyển cảnh chữ ký ★ + Transition Map rút gọn · scope asset + credit ước tính. **Chưa tạo ảnh/video, chưa dựng slide khi 3T chưa duyệt.**
@@ -74,6 +75,7 @@ Rồi in **1 dòng mặc định** để 3T sửa nếu muốn:
 ## Luật cứng
 - **Cách viết (đọc `11`):** không phải nhà văn - viết để khách hình dung được sẽ quay gì, thể hiện ra sao, cấu trúc thế nào. Mọi câu qua 4 test: đọc một lần · nói qua điện thoại · thấy được, làm được · thay tên dự án. Đổi 6 nhóm từ (văn chương · Hán Việt nặng · marketing sáo rỗng · cảm tính của nghề · thuật ngữ quay dựng · trộn tiếng Anh). Từ phổ thông kiểu miền Nam (không "ráng chiều", "mặt nước đồng", "gió rạp"); mô tả hình nói thẳng thấy gì, không ví von; không số giây và thuật ngữ quay/dựng trong ô hình; không khóa vào thời tiết, hướng gió; Mục đích, tên phần, "Để làm gì" của chuyển cảnh nói thẳng nội dung.
 - **VO, slogan, tagline có chuẩn riêng (`11` mục 10A):** luật trên dùng chủ yếu cho phần mô tả. VO được có giọng, có nhịp (song hành, bộ ba, hình ảnh gợi cảm xúc người nghe thấy ngay), không viết thô như thuyết minh tin tức. Vẫn không ví von phải ngẫm, không chồng chữ marketing rỗng, không tả lại cái hình đang chiếu.
+- **VO nói ít hơn hình (đọc `14`):** chọn họ VO và ngôi kể trước khi viết; đếm chữ theo ngân sách (2,6 chữ/giây giọng cảm xúc, 3,0 giọng thuyết minh); phim cảm xúc phủ ≤ 55% và có đoạn không lời ≥ 8 giây ở cao trào; tối đa 1 con số mỗi câu.
 - **Không bịa** insight, số liệu, credentials, giải thưởng, thông tin dự án. Câu do agent tự viết (Vision, VO đề xuất) **không chứa con số hay ước lượng** ("hàng triệu lần", "20 năm") nếu khách chưa cung cấp. Đã ghi "đã bỏ" thì chữ trên slide phải thật sự đã bỏ.
 - **Concept statement (đọc `10`):** hiểu trước khi viết - lập bảng [mảng | giá trị cốt lõi] cho 3T xác nhận; giọng khẳng định của thương hiệu (không câu hỏi); hình ảnh thuộc thế giới của khách; không khoe nghĩa vụ tối thiểu ("giao đủ", "đúng hẹn", "kiểm kỹ"); không tự thêm claim; số liệu để trang chứng minh, không đặt ở concept.
 - **DP chỉ gồm ánh sáng · màu sắc · cú máy.** Không ghi lens, tiêu cự, thông số máy. Ngoại lệ: dòng "180-degree shutter angle" trong prompt Seedance.

@@ -29,6 +29,7 @@
 - [ ] Kịch bản khách giữ nguyên chữ; góp ý nằm ở file riêng.
 - [ ] Concept statement (nếu có, theo `10`): có bảng giá trị cốt lõi đã được 3T xác nhận; giọng khẳng định; hình ảnh không đặt vào brand khác vẫn đúng; không có câu khoe nghĩa vụ tối thiểu hay claim tự thêm; không có số liệu ở tầng concept.
 - [ ] Tổng thời lượng = thời lượng phim; VO không dày hơn hình.
+- [ ] VO chạy đủ tự rà ở `14` mục 7: câu mở có va chạm · điệp khúc 3-4 lần · từ khóa riêng ≥ 3 lần · một ngôi kể · tổng chữ và % phủ trong ngân sách · ≤ 1 con số mỗi câu · có đoạn không lời ở cao trào.
 - [ ] Mỗi cảnh có Source. Cảnh công trình chưa xây ghi "hình ảnh minh họa".
 - [ ] Nhịp mở phim hợp kênh (social: hook 2 giây đầu, đọc được khi tắt tiếng; sảnh: loop, không cần âm).
 - [ ] Cut-down (nếu có): mỗi bản có mở - cao trào - kết, giữ ★ + logo/slogan.

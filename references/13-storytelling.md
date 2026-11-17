@@ -67,7 +67,7 @@ STORY BLUEPRINT - <Khách> - <Phim> - <thời lượng> - <kênh>
 7. Nhịp phim:
    | Timecode | Đoạn | Đoạn này để làm gì | Người xem cảm thấy gì | Độ mạnh 1-5 | Cắt nhanh / chậm |
    Đoạn lắng: <timecode, bằng gì> · Cảnh giữ lâu nhất: <timecode, cảnh gì>
-8. Giọng kể:          <câu hỏi lặp lại / nhân vật tự nói / danh sách chữ / không lời, chỉ bài hát / VO kể song song> + 2-3 câu VO mẫu [mẫu - chờ duyệt]
+8. Giọng kể:          <câu hỏi lặp lại / nhân vật tự nói / danh sách chữ / không lời, chỉ bài hát / VO kể song song> + họ VO · ngôi kể · điệp khúc · từ khóa riêng (theo `14`) + cặp câu mở - câu kết + 2-3 câu VO mẫu [mẫu - chờ duyệt]
 9. Luật hình (3-5 luật, mỗi luật 1 lý do): màu · cú máy · ánh sáng · chất hình
 10. Chuyển cảnh:      ★ chữ ký <nối bằng gì · khớp ở đâu · để làm gì> (theo 09) · lúc đổi thế giới <nối bằng gì, timecode>
 11. Kết:              cảm xúc <___> → sản phẩm trong khung có người <___> → logo + slogan → câu hoặc hình chốt <có/không, là gì>

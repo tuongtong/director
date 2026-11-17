@@ -65,6 +65,7 @@ Hình ảnh sạch, có chủ đích; nhịp được kiểm soát; cảm xúc c
 - Lifestyle, vật liệu, sản phẩm thủ công → chậm, nhẹ, ngắt nhịp bằng "…" (nhịp chậm, không phải ví von khó hiểu).
 - Câu ngắn, mỗi câu VO gắn với 1 beat hình.
 - VO theo chuẩn riêng ở `11` mục 10A: có giọng, có nhịp, nghe một lần hiểu. Không viết thô như mô tả hình, cũng không ví von phải ngẫm.
+- Cấu trúc và đo đếm VO (họ VO, ngôi kể, điệp khúc, từ khóa riêng, ngân sách chữ, chỗ im): theo `14`.
 
 ## Thói quen viết (giữ nguyên)
 - Cột **Source** cho từng cảnh: `Shooting` · `Stock` · `AI generation` · `Graphic` · `3D` · `Tư liệu` · `Shooting kết hợp AI generation`.

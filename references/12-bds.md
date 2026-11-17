@@ -7,7 +7,7 @@
 
 ## Dùng ở bước nào
 
-- **Bước 2 (Neo phim):** xác định loại phim, kênh chiếu, dự án đang ở giai đoạn nào (chưa xây thì dùng CGI, đã có người ở thì quay thật). Đưa ra 2-3 khung kịch bản ở bảng dưới, mỗi khung một dòng lý do, **chờ 3T chọn**. Spine viết 1 câu. Thêm slogan (tối đa 3 vế) và một hình lặp lại ít nhất 3 lần trong phim.
+- **Bước 2 (Neo phim):** xác định loại phim, kênh chiếu, dự án đang ở giai đoạn nào (chưa xây thì dùng CGI, đã có người ở thì quay thật). Đưa ra 2-3 khung kịch bản ở bảng dưới, mỗi khung một dòng lý do, **chờ 3T chọn**. Spine viết 1 câu. Thêm slogan (tối đa 3 vế) và một hình lặp lại ít nhất 3 lần trong phim. Chốt họ VO, ngôi kể, điệp khúc, từ khóa riêng theo `14`.
 - **Bước 3 (Kịch bản):** theo bảng "Nhịp chuẩn" và các luật bên dưới. Có cột Nguồn (Quay thật / CGI / AI / Stock / Đồ họa), cuối bảng ghi tỷ lệ % mỗi nguồn.
 - **Số liệu dự án:** không bịa. Thiếu thì ghi `[cần số liệu]`.
 - **Bước 7-8:** cảnh nào AI làm khó (xem bảng "Cảnh nào AI làm được") thì chuyển sang quay thật hoặc dựng 3D. Kiến trúc dự án thật luôn lấy phối cảnh hoặc mặt bằng chính thức của chủ đầu tư làm `@image1`, và thêm câu `Do not redesign the architecture.` vào prompt.
@@ -16,13 +16,13 @@
 
 ## Loại phim
 
-| Loại phim | Dài | Người xem cần gì sau khi xem | Lúc thấy dự án lần đầu | Lượng VO |
+| Loại phim | Dài | Người xem cần gì sau khi xem | Lúc thấy dự án lần đầu | Lượng VO (họ VO theo `14`) |
 |---|---|---|---|---|
-| Phim quảng cáo cảm xúc (TV hoặc mạng) | 30-90 giây | Muốn về đó sống | Sau 30-50% phim | Ít, mỗi câu dưới 5 giây |
-| Phim ra mắt phân khu | 1-3 phút | Hiểu phân khu chia ra sao, muốn mua | Trong 5 giây đầu | Vừa, có số liệu |
-| Phim đi một vòng dự án | 2-3 phút | Biết đủ các tiện ích | Trong 3 giây đầu | Nhiều, mỗi cảnh đi với một câu VO |
-| Phim chiếu ở nhà mẫu | 3-5 phút | Có đủ ý để nhân viên tư vấn | Ngay giây đầu | Nhiều, bắt buộc chia phần |
-| Phim thương hiệu chủ đầu tư | 1-2 phút | Tin vào cách làm của chủ đầu tư | Sau 25-35% phim, hoặc chỉ ở cuối | Ít, có một câu nói lên quan điểm |
+| Phim quảng cáo cảm xúc (TV hoặc mạng) | 30-90 giây | Muốn về đó sống | Sau 30-50% phim | Tuyên ngôn: phủ 35-60%, mỗi câu dưới 5 giây |
+| Phim ra mắt phân khu | 1-3 phút | Hiểu phân khu chia ra sao, muốn mua | Trong 5 giây đầu | Phủ 75-85%, có số liệu |
+| Phim đi một vòng dự án | 2-3 phút | Biết đủ các tiện ích | Trong 3 giây đầu | Phủ 70-80%, mỗi cảnh đi với một cụm VO |
+| Phim chiếu ở nhà mẫu | 3-5 phút | Có đủ ý để nhân viên tư vấn | Ngay giây đầu | Phủ tối đa 85%, bắt buộc chia phần |
+| Phim thương hiệu chủ đầu tư | 1-2 phút | Tin vào cách làm của chủ đầu tư | Sau 25-35% phim, hoặc chỉ ở cuối | Kể + thông tin: phủ 60-80%, có một câu nói lên quan điểm |
 | Phim vật liệu, hạ tầng | 30-60 giây | Tin vào công nghệ | Thấy sớm, gọi tên muộn | Đọc liền, giọng trầm |
 
 ## 10 khung kịch bản
@@ -53,7 +53,7 @@
 | Đoạn đổi chất liệu | 1,5-2 giây, ở khoảng 60% phim | Bắt buộc với phim dài hơn 2 phút |
 | Chữ số liệu trên màn hình | Giữ ít nhất 2,5 giây, số lớn, chữ đi kèm tối đa 6 chữ | |
 | Màn kết phim chiếu mạng | Tối đa 5 giây, có câu kêu gọi hoặc chỗ bấm xem tiếp | Màn đen 11-12 giây là phí |
-| Câu VO | Mỗi câu dưới 5 giây, nghỉ 1-2 giây. Cả phim dùng chung một kiểu câu lặp lại | |
+| Câu VO | Mỗi câu dưới 5 giây, nghỉ 1-2 giây. Cả phim dùng chung một kiểu câu lặp lại | Ngân sách chữ, chỗ im: `14` |
 
 ## Luật đạo diễn
 
@@ -145,6 +145,9 @@ Viết theo dạng KHI → LÀM → ĐỂ. Dùng luật nào khớp với phim, 
 - [ ] Màn kết tối đa 5 giây, có câu kêu gọi hoặc chỗ bấm xem tiếp.
 - [ ] Cột Nguồn đủ. Cảnh AI làm khó đã chuyển sang quay thật hoặc 3D.
 - [ ] Không có số liệu bịa. Chỗ thiếu ghi `[cần số liệu]`.
+- [ ] VO: câu mở có va chạm; có điệp khúc và từ khóa riêng; qua phép thay tên (`14` mục 7).
+- [ ] VO: tổng chữ và % phủ trong ngân sách; mỗi câu tối đa 1 con số.
+- [ ] VO phim cảm xúc: có đoạn không lời ≥ 8 giây ở cao trào; lời không tả lại hình.
 - [ ] Có đề xuất bản ngắn cho mạng.
 
 Mục nào chưa đạt thì sửa rồi mới giao. Mục cố ý bỏ qua thì ghi lý do một dòng.

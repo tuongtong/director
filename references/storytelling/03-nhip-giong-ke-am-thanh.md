@@ -65,8 +65,9 @@ Việc của đoạn, chọn trong các loại:
 | **VO kể song song với hình** | corporate, BĐS | Theo `director/01` Giọng VO | 3T |
 
 **Luật chung:**
-- VO tiếng Việt đọc 3-4 tiếng mỗi giây.
-- Phim quảng cáo từ 30 giây trở xuống thì VO dài tối đa ~2/3 thời lượng phim (`director/04`).
+- Tính độ dài VO theo `director/14` mục 3: 2,6 chữ/giây giọng cảm xúc, 3,0 chữ/giây giọng thuyết minh.
+- Phim quảng cáo từ 30 giây trở xuống thì VO dài tối đa ~2/3 thời lượng phim (`director/04`). Phim cảm xúc nhắm 40-50%.
+- Họ VO, ngôi kể, điệp khúc, từ khóa riêng: theo `director/14`.
 - Chữ VO viết theo `director/11` mục 10A: có giọng, có nhịp, không thô như mô tả, không ví von phải ngẫm.
 
 **Sau câu kết luận bằng lời, cân nhắc bỏ hẳn lời:**
