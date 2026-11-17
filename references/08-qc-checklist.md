@@ -19,6 +19,8 @@
 - [ ] Khách đọc một lần hiểu sẽ quay gì; không còn từ văn chương, ví von, thuật ngữ quay/dựng khó hiểu.
 - [ ] Ô hình ảnh không ghi số giây từng cảnh; không khóa vào thời tiết / hướng gió.
 - [ ] Mục đích, tên phần, "Để làm gì" của chuyển cảnh, ý đồ phỏng vấn đều nói thẳng nội dung.
+- [ ] Mọi câu qua 4 test (`11` mục 0): đọc một lần · nói qua điện thoại · thấy được, làm được · thay tên dự án.
+- [ ] Chạy đủ 7 câu tự rà ở `11` mục 12 (6 nhóm từ, một thứ một tên, câu ngắn, chủ ngữ rõ, không "tiến hành / nhằm", số - ngày - đơn vị thống nhất).
 
 **Nội dung**
 - [ ] Có Spine + khoảnh khắc nhớ mãi; 2-3 chữ ký DNA được chọn có lý do.

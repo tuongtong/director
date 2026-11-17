@@ -6,7 +6,7 @@ license: "© 2026 Đạo diễn Tường Tống - Space Gray Production. All rig
 metadata:
   author: "Đạo diễn Tường Tống (3T)"
   studio: "Space Gray Production"
-  version: "1.6.0"
+  version: "1.7.0"
 ---
 
 # DIRECTOR - Hồ sơ đạo diễn Space Gray
@@ -72,7 +72,7 @@ Rồi in **1 dòng mặc định** để 3T sửa nếu muốn:
 10. **QC** (`08`) → báo cáo cuối: link/đường dẫn · asset đã/chưa tạo · giả định chờ xác nhận · câu hỏi còn mở. Cập nhật tiến độ trong `00_project.md`.
 
 ## Luật cứng
-- **Cách viết (đọc `11`):** không phải nhà văn - viết để khách hình dung được sẽ quay gì, thể hiện ra sao, cấu trúc thế nào. Từ phổ thông kiểu miền Nam (không "ráng chiều", "mặt nước đồng", "gió rạp"); mô tả hình nói thẳng thấy gì, không ví von; không số giây và thuật ngữ quay/dựng trong ô hình; không khóa vào thời tiết, hướng gió; Mục đích, tên phần, "Để làm gì" của chuyển cảnh nói thẳng nội dung.
+- **Cách viết (đọc `11`):** không phải nhà văn - viết để khách hình dung được sẽ quay gì, thể hiện ra sao, cấu trúc thế nào. Mọi câu qua 4 test: đọc một lần · nói qua điện thoại · thấy được, làm được · thay tên dự án. Đổi 6 nhóm từ (văn chương · Hán Việt nặng · marketing sáo rỗng · cảm tính của nghề · thuật ngữ quay dựng · trộn tiếng Anh). Từ phổ thông kiểu miền Nam (không "ráng chiều", "mặt nước đồng", "gió rạp"); mô tả hình nói thẳng thấy gì, không ví von; không số giây và thuật ngữ quay/dựng trong ô hình; không khóa vào thời tiết, hướng gió; Mục đích, tên phần, "Để làm gì" của chuyển cảnh nói thẳng nội dung.
 - **Không bịa** insight, số liệu, credentials, giải thưởng, thông tin dự án. Câu do agent tự viết (Vision, VO đề xuất) **không chứa con số hay ước lượng** ("hàng triệu lần", "20 năm") nếu khách chưa cung cấp. Đã ghi "đã bỏ" thì chữ trên slide phải thật sự đã bỏ.
 - **Concept statement (đọc `10`):** hiểu trước khi viết - lập bảng [mảng | giá trị cốt lõi] cho 3T xác nhận; giọng khẳng định của thương hiệu (không câu hỏi); hình ảnh thuộc thế giới của khách; không khoe nghĩa vụ tối thiểu ("giao đủ", "đúng hẹn", "kiểm kỹ"); không tự thêm claim; số liệu để trang chứng minh, không đặt ở concept.
 - **DP chỉ gồm ánh sáng · màu sắc · cú máy.** Không ghi lens, tiêu cự, thông số máy. Ngoại lệ: dòng "180-degree shutter angle" trong prompt Seedance.
